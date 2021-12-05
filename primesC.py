@@ -13,4 +13,4 @@ def calculatePrimesC(maxPrime):
 
 
 if __name__ == '__main__':
-    calculatePrimesC(200)
+    calculatePrimesC(1000)

@@ -17,7 +17,7 @@ bool isPrime(int n)
     {
         if (n % i == 0)
         {
-            isPrime = false;
+            return false;
         }
     }
     return isPrime;

@@ -6,11 +6,10 @@ def isPrime(n):
         return 0
     if n == 2:
         return 1
-    isPrime = 1
     for i in range(2, int(math.sqrt(n))):
         if n % i == 0:
             return False
-    return isPrime
+    return 1
 
 def printPrimes(n):
     for i in range(2, n):

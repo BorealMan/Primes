@@ -1,5 +1,6 @@
-from primesC import calculatePrimesC
+from primesCPlus import calculatePrimesCPlus
 from primesPython import calculatePrimesPython
+from primesC import calculatePrimesC
 
 
 def compareByTens(power):
@@ -9,7 +10,9 @@ def compareByTens(power):
         factor *= mult
         print("\nTime to calculate " + str(factor) + " prime intgeters.")
         calculatePrimesC(factor)
+        calculatePrimesCPlus(factor)
         calculatePrimesPython(factor)
+
 
 
 if __name__ == '__main__':
